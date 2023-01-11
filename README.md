@@ -8,7 +8,7 @@
 #add number to sum if the number is a multiple of 3 or 5
 #keep looping until number reach 999
 
-import math
+#import math
 i = 0
 sum = 0
 
