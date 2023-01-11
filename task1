@@ -1,0 +1,10 @@
+#i = 0
+sum = 0 #assigning variable 'Sum' with a value of '0'
+
+for i in range(1000): #range(start,end,step)
+
+  if (i%3 == 0) or (i%5 == 0):
+    sum += i
+
+#print(i)
+print(sum)
