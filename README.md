@@ -15,5 +15,6 @@ for i in range(1,1000,1): #range(start,end,step)
 
   if i%3 == 0 or i%5 == 0:
     sum = sum + i
-print(i)
+
+#print(i)
 print(sum)
