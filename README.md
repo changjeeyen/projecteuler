@@ -8,13 +8,13 @@
 #add number to sum if the number is a multiple of 3 or 5
 #keep looping until number reach 999
 
-i = 0
+#i = 0
 sum = 0
 
 for i in range(1,1000,1): #range(start,end,step)
 
   if i%3 == 0 or i%5 == 0:
-    sum = sum + i
+    sum += i
 
 #print(i)
 print(sum)
