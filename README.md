@@ -1,4 +1,5 @@
 # projecteuler
+
 #1 multiples of 3 or 5 below 1000
 import math
 i = 0
