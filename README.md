@@ -8,12 +8,10 @@
 #add number to sum if the number is a multiple of 3 or 5
 #keep looping until number reach 999
 
-#import math
 i = 0
 sum = 0
 
-while i < 999:
-  i += 1
+for i in range(1000):
 
   if i%3 == 0 or i%5 == 0:
     sum = sum + i
