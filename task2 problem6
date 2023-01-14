@@ -1,0 +1,16 @@
+# Projecteuler #6 sum square difference
+# run number from 1 to 100
+# square each number then add the sum of squares
+# add each number to sum, square at i = 100
+# difference between the square of sums and sum of squares
+
+sumsq = 0 # sum of the square
+sum = 0 # just add each number first before square
+diff = 0 # difference of sq of sum and sumsq
+
+for i in range (101): #need 101 to stop at 100
+  sumsq = sumsq + i*i
+  sum = sum + i
+
+diff = (sum*sum) - sumsq
+print(diff)
