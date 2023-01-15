@@ -1,0 +1,18 @@
+# Projecteuler #2 Even Fibonacci numbers
+# find the current number nth term using sum of (n-2)th number and (n-1)th number
+# if even, add to the sum of even
+# run until nth number is 4,000,000
+
+n3 = 0
+n1 = 1
+n2 = 2
+sum = 0
+
+while n3 < 4000000000:
+  n3 = n1 + n2
+  if n3%2 == 0:
+    sum = sum + n3
+  n1 = n2
+  n2 = n3
+
+print (n3,sum)
